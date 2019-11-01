@@ -1,3 +1,7 @@
+## Accessible Imaging with BeagleBone BeagleBoard and PixyCam
+
+A standardized library for performing imaging techniques.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/lzmunch/beaglebone-imaging/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
