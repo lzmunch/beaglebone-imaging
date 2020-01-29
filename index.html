@@ -17,20 +17,45 @@
 			.stuff {
 				display: inline-block;
 				max-width: 560px;
-				margin-left: 50px;
+				padding: 10px;
+				padding-bottom: 30px;
 			}
+
+			#status-reports-div{
+				display:inline-block;
+				border-style: dashed;
+				border-radius: 10px;
+				width: 560px;
+				padding: 10px;
+			}
+
+			.status-report{
+				text-align: left;
+				padding: 10px;
+			}
+
 		</style>
+
+		<script src="reports/report1.js"></script>
   </head>
   <body>
-  	<div width="100%">
+  	<!-- <div width="100%"> -->
 		<div class="stuff">
 			<h2>Imaging Research with PixyCam and BeagleBoard </h2>
-			<p><a href="lzmunch.github.io">Lauren Zhang</a></p>
-			<p>Advised by <a href="http://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a></p>
+			<p><a href="https://lzmunch.github.io">Lauren Zhang</a>, <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a></p>
+			<img src="assets/beaglebone.jpg" width="560px">
+			<p>Creaating an experimental platform and API for computational imaging, with intended usage for education and creative making.</p>
 			<a href="https://drive.google.com/open?id=1hdX16OroOvshj47OYQHDAPV614zxv4kVgb0LYPB6e-g">Resesarch Proposal</a>
 			<br>
 			<a href="https://docs.google.com/document/d/1OkBaaa6Av5xb8xwhxEmMKD9OSPUnY6j7IVza0HjQbk0/edit?usp=sharing">More details</a>
+			<p>Website made for 15300(Research Writing Fall 2019) and 15400(Research Practicum Spring 2020) at Carnegie Mellon University. </p>
 		</div>
-	<div>
+		<div width="100%">
+			<div id="status-reports-div">
+				<h3><u>Bi-weekly Status Reports</u></h3>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	<!-- <div> -->
   </body>
 </html>
