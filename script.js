@@ -6,7 +6,7 @@ function makeElementString(elem, text){
 }
 
 function makeLink(link, text){
-	return "<a href=" + link + ">" + text + "</a>";
+	return "<a href=" + link + " target='_blank'>" + text + "</a>";
 }
 
 function addReport(num, date, report){

@@ -9,7 +9,7 @@
 		<style>
 			html, body {
 				margin: 0;
-				padding: 0;
+				padding: 10px;
 				font-family: Inconsolata;
 				text-align: center;
 			}
@@ -17,7 +17,7 @@
 			.stuff {
 				display: inline-block;
 				max-width: 560px;
-				padding: 10px;
+				padding: 0px;
 				padding-bottom: 30px;
 			}
 
@@ -25,6 +25,8 @@
 				display:inline-block;
 				border-style: dashed;
 				border-radius: 10px;
+				border-width: 2px;
+				border-color: gray;
 				width: 560px;
 				padding: 10px;
 			}
@@ -34,6 +36,13 @@
 				padding: 10px;
 			}
 
+			a:link, a:visited {
+				color: blue;
+				text-decoration: none;
+			}
+			a:hover {
+				color: orange;
+			}
 		</style>
 
 		<script src="reports/report1.js"></script>
@@ -42,12 +51,15 @@
   	<!-- <div width="100%"> -->
 		<div class="stuff">
 			<h2>Imaging Research with PixyCam and BeagleBoard </h2>
-			<p><a href="https://lzmunch.github.io">Lauren Zhang</a>, <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a></p>
+			<h4>
+				<a href="https://lzmunch.github.io" target='_blank'>Lauren Zhang</a>,
+				<a href="https://www.cs.cmu.edu/~motoole2/" target='_blank'>Matthew O'Toole</a>
+			</h4>
 			<img src="assets/beaglebone.jpg" width="560px">
 			<p>Creaating an experimental platform and API for computational imaging, with intended usage for education and creative making.</p>
-			<a href="https://drive.google.com/open?id=1hdX16OroOvshj47OYQHDAPV614zxv4kVgb0LYPB6e-g">Resesarch Proposal</a>
+			<a href="https://drive.google.com/open?id=1hdX16OroOvshj47OYQHDAPV614zxv4kVgb0LYPB6e-g" target='_blank'>Resesarch Proposal</a>
 			<br>
-			<a href="https://docs.google.com/document/d/1OkBaaa6Av5xb8xwhxEmMKD9OSPUnY6j7IVza0HjQbk0/edit?usp=sharing">More details</a>
+			<a href="https://docs.google.com/document/d/1OkBaaa6Av5xb8xwhxEmMKD9OSPUnY6j7IVza0HjQbk0/edit?usp=sharing" target='_blank'>More details</a>
 			<p>Website made for 15300(Research Writing Fall 2019) and 15400(Research Practicum Spring 2020) at Carnegie Mellon University. </p>
 		</div>
 		<div width="100%">
