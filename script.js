@@ -43,8 +43,14 @@ function addReportLink(num, date, link){
 	status_reports.appendChild(div);
 }
 
-var link1 = "https://docs.google.com/document/d/1Rp15YF9jEi1y6cfX6WfeEBngCpJYm9clnj26Y-rXzFg/edit?usp=sharing";
-var report1 = "";
-// addReport("01", "01/29/2020", report1);
-addReportLink("01", "01/29/2020", link1);
+
+var links = [
+	"https://docs.google.com/document/d/1Rp15YF9jEi1y6cfX6WfeEBngCpJYm9clnj26Y-rXzFg/edit?usp=sharing",
+	"https://docs.google.com/document/d/1A3iiBJfFLHXPewnho3F9rmC1P7XPCF5gqLLQU3we9FQ/edit?usp=sharing"	
+];
+
+
+addReportLink("01", "01/29/2020", links[0]);
+addReportLink("02", "02/12/2020", links[1]);
+
 
