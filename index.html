@@ -26,13 +26,49 @@
 				display:inline-block;
 				border-style: dashed;
 				border-width: 2px;
-				width: 560px;
+/*				width: 560px;
+*/				padding: 10px;
+				max-height: 100%;
+				/*overflow-y: scroll;*/
+			}
+
+			#status-div {
+				display:inline-block;
+				position: relative;
+				text-align: center;
+				vertical-align: top;
+				/*width: 250px;*/
+				/*width: 25%;*/
+				max-width: 250px;
+			}
+			#results-div{
+				display:inline-block;
+				position: relative;
+				text-align: center;
+				vertical-align: top;
+				/*width: 70%;*/
+				max-width: 550px;
 				padding: 10px;
 			}
 
 			.status-report{
-				text-align: left;
+				text-align: center;
 				padding: 10px;
+			}
+
+			#progress-div {
+				width: 70%;
+				display: inline-block;
+				text-align: center;
+			}
+
+			.result-img{
+				max-width: 90%;
+				height: auto;
+				width: auto;
+			}
+
+			.caption {
 			}
 
 			a:link, a:visited {
@@ -63,9 +99,14 @@
 			<a href="https://github.com/lzmunch/beaglebone-imaging" target='_blank'>Github</a>
 			<p>Website made for 15300(Research Writing Fall 2019) and 15400(Research Practicum Spring 2020) at Carnegie Mellon University. </p>
 		</div>
-		<div width="100%">
-			<div id="status-reports-div">
+		<div id="progress-div" width="100%">
+			<div id="status-div">
 				<h3><u>Bi-weekly Status Reports</u></h3>
+				<div id="status-reports-div">
+				</div>
+			</div>
+			<div id="results-div">
+				<h3><u>Results</u></h3>
 			</div>
 		</div>
 		<script src="script.js"></script>
