@@ -30,12 +30,15 @@ function addResult(caption, imgsrc){
 
 var links = [
 	"https://docs.google.com/document/d/1Rp15YF9jEi1y6cfX6WfeEBngCpJYm9clnj26Y-rXzFg/edit?usp=sharing",
-	"https://docs.google.com/document/d/1A3iiBJfFLHXPewnho3F9rmC1P7XPCF5gqLLQU3we9FQ/edit?usp=sharing"	
+	"https://docs.google.com/document/d/1A3iiBJfFLHXPewnho3F9rmC1P7XPCF5gqLLQU3we9FQ/edit?usp=sharing",
+	"https://docs.google.com/document/d/19juiQhYuVBL_r-datdNNOx91041wsxTv9tW3j7FyfYo/edit?usp=sharing"	
 ];
 
 addReportLink("01", "01/29/2020", links[0]);
 addReportLink("02", "02/12/2020", links[1]);
+addReportLink("03", "02/26/2020", links[2]);
 
+addResult("0/26. Tone mapping", "https://i.imgur.com/q4xz3vB.png");
 addResult("02/12. HDR imaging progress", "https://i.imgur.com/hSYfD3L.png");
 
 
