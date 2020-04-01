@@ -33,14 +33,14 @@ var links = [
 	"https://docs.google.com/document/d/1A3iiBJfFLHXPewnho3F9rmC1P7XPCF5gqLLQU3we9FQ/edit?usp=sharing",
 	"https://docs.google.com/document/d/19juiQhYuVBL_r-datdNNOx91041wsxTv9tW3j7FyfYo/edit?usp=sharing",
 	"https://docs.google.com/document/d/1jP1xUOPIcrxBv8ObhT_HCSie88C3STaAIM6TlebSfb0/edit?usp=sharing",
+	"https://docs.google.com/document/d/1rGw1KvuHPJzrUSbaa-JYqPzoQqZ5rSypS8fU8kHI3gs/edit?usp=sharing",
 ];
 
-addReportLink("01", "01/29/2020", links[0]);
-addReportLink("02", "02/12/2020", links[1]);
-addReportLink("03", "02/26/2020", links[2]);
+addReportLink("05", "04/01/2020", links[4]);
 addReportLink("04", "03/18/2020", links[3]);
+addReportLink("03", "02/26/2020", links[2]);
+addReportLink("02", "02/12/2020", links[1]);
+addReportLink("01", "01/29/2020", links[0]);
 
 addResult("0/26. Tone mapping", "https://i.imgur.com/q4xz3vB.png");
 addResult("02/12. HDR imaging progress", "https://i.imgur.com/hSYfD3L.png");
-
-
