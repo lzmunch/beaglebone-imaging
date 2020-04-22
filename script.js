@@ -34,8 +34,10 @@ var links = [
 	"https://docs.google.com/document/d/19juiQhYuVBL_r-datdNNOx91041wsxTv9tW3j7FyfYo/edit?usp=sharing",
 	"https://docs.google.com/document/d/1jP1xUOPIcrxBv8ObhT_HCSie88C3STaAIM6TlebSfb0/edit?usp=sharing",
 	"https://docs.google.com/document/d/1rGw1KvuHPJzrUSbaa-JYqPzoQqZ5rSypS8fU8kHI3gs/edit?usp=sharing",
+	"https://docs.google.com/document/d/1Aeq1POOB_vEqxvq8Eud4PiPrznhWG0f-S2rK-hxZjf8/edit?usp=sharing",
 ];
 
+addReportLink("06", "04/22/2020", links[5]);
 addReportLink("05", "04/01/2020", links[4]);
 addReportLink("04", "03/18/2020", links[3]);
 addReportLink("03", "02/26/2020", links[2]);
